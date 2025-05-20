@@ -3,6 +3,6 @@ def describe_statistic(data):
     
     # Describe the dataset
     data_statistic = data_statistic.describe()
-    data_statistic.insert(0,"Statistics",["count","mean","min","25%","50%","75%","max","std"])
+    data_statistic.insert(0,"Statistics",["count","mean","std","min","25%","50%","75%","max"])
     
     return data_statistic
